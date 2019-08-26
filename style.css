@@ -1,0 +1,62 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+body, input {
+    background-color: rgb(236, 233, 229) !important; 
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 20px; */
+    background-color: rgb(236, 233, 229);
+    max-width: 100%;
+}
+.header {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-header {
+    font: bold 35px 'Raleway', sans-serif;
+}
+.card-title {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.task-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#existing-task-tbl {
+    border: 5px solid rgb(179, 175, 171);
+}
+
+.create-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: center center;
+    align-items: center;
+}
+
+.card {
+    margin: 10px;
+}
+
+@media (min-width: 768px){
+    .container{
+      max-width:100%;
+    }  
+  }
+  
+  @media (min-width: 992px){
+    .container{
+      max-width:100%;
+    }
+  }
